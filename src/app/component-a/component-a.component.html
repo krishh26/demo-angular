@@ -1,0 +1,7 @@
+<h2>Parent Component</h2>
+<p>Counter: {{ counter }}</p>
+<p>Data Object Name: {{ dataObject.name }}</p>
+<button (click)="updatePrimitive()">Update Primitive Data</button>
+<button (click)="updateNonPrimitive()">Update Non-Primitive Data</button>
+
+<app-child [data]="dataObject"></app-child>
